@@ -1,0 +1,85 @@
+/* Minimal CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #E63946;                  /* Your main red color for buttons, highlights */
+  --accent: #A8DADC;                   /* A soft aqua to complement the red */
+  --background: #F1FAEE;               /* Off-white background color */
+  --text: #1D3557;                     /* Dark navy for body and headings */
+  --font-body: 'Roboto', sans-serif;  /* Clean, readable font for text */
+  --font-heading: 'Montserrat Bold', serif; /* Elegant font for H1, H2 */
+}
+
+.body {
+  font-family: var(--font-body);
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.nav{
+  background-color: var(--primary);
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--text);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+font-family: var(--font-heading);
+font-size: 2rem;
+color: var(--primary);
+margin-bottom: 0.5rem;
+}
+
+section p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
