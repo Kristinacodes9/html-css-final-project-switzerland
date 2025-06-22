@@ -36,6 +36,7 @@ root/
 ├── style.css        # All global and page-level styles
 ├── images/          # Static images used across pages
 └── README.md        # Project documentation
+```
 
 ## Features
 
