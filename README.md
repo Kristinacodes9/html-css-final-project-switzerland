@@ -27,15 +27,7 @@ The layout and styling were planned before implementation. A limited and cohesiv
 
 ## File Structure
 
-root/
-│
-├── index.html # Home page with image and introduction
-├── gallery.html # Image gallery showcasing Swiss landscapes
-├── resources.html # Curated links for travel planning
-├── contact.html # Form to reach out or subscribe
-├── style.css # All global and page-level styles
-├── /images # Static images used across pages
-└── README.md # Project documentation
+root/ │ ├── index.html # Home page with image and introduction ├── gallery.html # Image gallery showcasing Swiss landscapes ├── resources.html # Curated links for travel planning ├── contact.html # Form to reach out or subscribe ├── style.css # All global and page-level styles ├── /images # Static images used across pages └── README.md # Project documentation
 
 ## Features
 
